@@ -1,0 +1,8 @@
+{
+  "name": "typescript-package-boilerplate",
+  "version": "0.1.0",
+  "description": "Template starter for creating typescript package",
+  "main": "index.js",
+  "author": "Eries Trisnadi <zdumb1885@gmail.com>",
+  "license": "MIT"
+}

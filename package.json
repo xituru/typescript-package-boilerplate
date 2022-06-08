@@ -1,6 +1,6 @@
 {
   "name": "@xituru/typescript-package-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template starter for creating npm package with typescript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -27,11 +27,11 @@ jobs:
       - name: Install dependencies
         env:
           CI: true
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Build
         if: success()
-        run: npm run build
+        run: yarn build
 
       - name: Semantic Release
         if: success()

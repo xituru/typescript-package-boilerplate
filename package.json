@@ -43,6 +43,7 @@
     "test": "jest --no-cache --runInBand"
   },
   "devDependencies": {
+    "@amanda-mitchell/semantic-release-npm-multiple": "^3.4.0",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@commitlint/types": "^17.0.0",
@@ -50,7 +51,6 @@
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/jest": "^28.1.1",
     "del-cli": "^4.0.1",

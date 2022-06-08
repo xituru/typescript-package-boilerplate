@@ -10,9 +10,16 @@
       }
     ],
     [
-      "@semantic-release/npm",
+      "@amanda-mitchell/semantic-release-npm-multiple",
       {
-        "tarballDir": "pack"
+        "registries": {
+          "github": {
+            "tarballDir": "pack"
+          },
+          "public": {
+            "tarballDir": "pack"
+          }
+        }
       }
     ],
     [

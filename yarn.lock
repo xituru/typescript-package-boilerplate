@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@amanda-mitchell/semantic-release-npm-multiple@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/semantic-release-npm-multiple/-/semantic-release-npm-multiple-3.4.0.tgz#7cb529a5f27d44d1b8677dc963a2ff2530b04b02"
+  integrity sha512-NiBxRm+XfeDn9JBbk74iTrgjdiBnz5Ivp3NkeRJCbIBG4Mk8P6ADRHXDPpQC7KVfoSgrwkBJvx6ri6rzwocOTQ==
+  dependencies:
+    "@semantic-release/npm" "^9.0.0"
+    require-reload "^0.2.2"
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -1094,7 +1102,7 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/npm@^9.0.0", "@semantic-release/npm@^9.0.1":
+"@semantic-release/npm@^9.0.0":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-9.0.1.tgz#d81828eb1fb771e2767b3a8ee989915e1af27075"
   integrity sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g==
@@ -5243,6 +5251,11 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+
+require-reload@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/require-reload/-/require-reload-0.2.2.tgz#29a7591846caf91b6e8a3cda991683f95f8d7d42"
+  integrity sha512-ElZsgUSIyQKuS8Db4t/w30ut7TXWPzEhvBEVWzMHMTHeokHABEiF+oABX/rSp9nEhm+loT/ziZC+/7PQn7+7eA==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

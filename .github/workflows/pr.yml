@@ -1,0 +1,16 @@
+name: Pull Request Test
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.editorconfig'
+
+    branches:
+      - main
+      - master
+
+jobs:
+  test:
+    uses: xituru/typescript-package-boilerplate/.github/workflows/test.yml@main

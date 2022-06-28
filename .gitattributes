@@ -1,2 +1,3 @@
 # treat internal as vendor
 internal/* linguist-vendored
+husky/* linguist-vendored

@@ -2,7 +2,7 @@
 
 [![npm package](https://img.shields.io/badge/npm%20i-@xituru/typescript--package--boilerplate-brightgreen)](https://www.npmjs.com/package/@xituru/typescript-package-boilerplate)
 [![version number](https://img.shields.io/npm/v/@xituru/typescript-package-boilerplate?color=green&label=version)](https://github.com/xituru/typescript-package-boilerplate/releases)
-[![Actions Status](https://github.com/xituru/typescript-package-boilerplate/workflows/Test/badge.svg)](https://github.com/xituru/typescript-package-boilerplate/actions)
+[![Release & Publish](https://github.com/xituru/typescript-package-boilerplate/actions/workflows/release.yml/badge.svg)](https://github.com/xituru/typescript-package-boilerplate/actions/workflows/release.yml)
 [![License](https://img.shields.io/github/license/xituru/typescript-package-boilerplate)](https://github.com/xituru/typescript-package-boilerplate/blob/main/LICENSE)
 
 - [x] CI Publishing & Release

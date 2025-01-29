@@ -13,4 +13,4 @@ on:
 
 jobs:
   test:
-    uses: xituru/typescript-package-boilerplate/.github/workflows/test.yml@main
+    uses: ./.github/workflows/test.yml

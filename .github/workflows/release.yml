@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    uses: xituru/typescript-package-boilerplate/.github/workflows/test.yml@main
+    uses: ./.github/workflows/test.yml
 
   release:
     needs: [test]
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node to publish to npm
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 18
 
       - name: Install dependencies
         env:

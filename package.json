@@ -39,7 +39,7 @@
     "build:types": "del-cli dist/types && tsc -p internal/config/tsconfig.types.json",
     "coverage": "jest --coverage --no-cache --runInBand",
     "lint": "tslint -p tsconfig.json",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "test": "jest --no-cache --runInBand"

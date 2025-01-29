@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         env:
           CI: true
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build
         if: success()

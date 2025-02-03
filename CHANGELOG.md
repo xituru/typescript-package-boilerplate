@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/xituru/typescript-package-boilerplate/compare/v1.1.0...v1.1.1) (2025-02-03)
+
+
+### Performance Improvements
+
+* migrate to `tsup` as bundler ([b4eb8f6](https://github.com/xituru/typescript-package-boilerplate/commit/b4eb8f6cbe154d1c342cb6574bf964fbe721fc6c))
+
 # [1.1.0](https://github.com/xituru/typescript-package-boilerplate/compare/v1.0.2...v1.1.0) (2025-01-29)
 
 
